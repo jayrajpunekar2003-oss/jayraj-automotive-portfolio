@@ -346,8 +346,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .desktop-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); grid-auto-rows: 88px; gap: 10px 2px; padding: 12px 8px 70px; }
   .desktop-app { width: 66px; min-height: 72px; gap: 5px; padding: 0; font-size: 7px; }
   .desktop-app-icon { width: 42px; }
-  .home-car-preview { right: -8%; bottom: 9%; width: 78vw; height: 42vh; opacity: .86; }
-  .home-intro { top: auto; left: 14px; bottom: 112px; width: min(420px, calc(100% - 28px)); padding: 14px; background: linear-gradient(90deg,rgba(11,11,13,.9),rgba(11,11,13,.62) 75%,transparent); }
+  .home-car-preview { right: -5%; bottom: 7%; width: 90vw; height: 30vh; min-height: 190px; max-height: 270px; opacity: .86; }
+  .home-intro { top: 215px; left: 14px; bottom: auto; width: min(420px, calc(100% - 28px)); padding: 14px; background: linear-gradient(90deg,rgba(11,11,13,.9),rgba(11,11,13,.62) 75%,transparent); }
   .home-intro .eyebrow { font-size: 7px; margin-bottom: 7px; }.home-intro h1 { font-size: clamp(38px, 10vw, 52px); }.home-intro > p:not(.eyebrow) { max-width: 360px; font-size: 10px; line-height: 1.65; }.home-intro-link { margin-top: 10px; }
   .return-home { top: 11px; left: 11px; min-height: 35px; }
   .desktop-taskbar { inset: auto 6px 6px; min-height: 44px; gap: 10px; padding: 5px 7px; }
